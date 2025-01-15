@@ -1,4 +1,3 @@
-
 #pyinstaller --onefile --noconsole --icon=myicon.ico (파일명).py
 import tkinter as tk
 from tkinter import ttk
@@ -11,7 +10,7 @@ hwp = Hwp()
 
 # Tkinter 창 생성
 root = tk.Tk()
-root.title("송나겸 돈 복사 매크로(v1.7)")
+root.title("송나겸 돈 복사 매크로(v1.061)")
 
 #파일 경로 표시
 file_path_frame = tk.Frame(root, highlightbackground="black", highlightthickness=1, padx=10, pady=10)
@@ -19,7 +18,7 @@ file_path_frame.grid(row=0, column=0, padx=15, pady=5, sticky="ew")
 
 # 공지사항 라벨
 notice_label = tk.Label(file_path_frame, text="2002방식 조판부호 사용 해야 작동함. / 창이 활성화된 상태에서만 단축키가 작동함.", font=("Arial", 10), anchor="w", fg="red")
-notice_label.grid(row=1, column=0, columnspan=2, sticky="w", padx=5)  # 아래쪽 전체 너비로 표시
+notice_label.grid(row=1, column=0, columnspan=2, sticky="w", padx=5)  # 아래쪽 전체 너비로 표pyt시
 notice_labe2 = tk.Label(file_path_frame, text="파일 선택 눌러서 편집할 파일을 연결 / 연결 안되면 다 끄고 다시 해주세요...(후졌음)", font=("Arial", 10), anchor="w", fg="red")
 notice_labe2.grid(row=2, column=0, columnspan=2, sticky="w", padx=5)  # 아래쪽 전체 너비로 표시
 # 파일 경로 라벨
